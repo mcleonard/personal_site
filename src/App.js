@@ -26,7 +26,7 @@ function App() {
     </HashRouter>
     <BrowserRouter basename="process.env.PUBLIC_URL">
       <div>
-      <Route path='/sampyl' exact component={() => { 
+      <Route path='/sampyl' component={() => { 
                 window.location.href = 'http://mcleonard.github.io/sampyl/'; 
                 return null;
                   }}/>
