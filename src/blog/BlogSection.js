@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import "./BlogSection.css"
 import Button from '../components/Button'
 
@@ -37,7 +38,7 @@ class BlogSection extends Component {
         return (
             <div className="BlogSection">
                 <h1 className="BlogSection-title">
-                    <a href={"blog/" + metadata["slug"]}>{metadata["title"]}</a>
+                    <Link to={"blog/" + metadata["slug"]}>{metadata["title"]}</Link>
                 </h1>
                 <p className="BlogSection-date">
                     {`Published on ${format_date(published)}`}
