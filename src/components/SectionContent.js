@@ -31,8 +31,9 @@ class SectionContent extends Component {
                 
                 <div className={text_class}>
                     <ReactMarkdown source={content['markdown']}/>
-                    {(content["button-text"] !== "" && <Button text={content["button-text"]}
-                        link={content["button-link"]} />)}
+                    {(content["button-text"] !== "" && 
+                        <Button text={content["button-text"]}
+                                link={content["button-link"]} />)}
                     
                 </div>
             </div>

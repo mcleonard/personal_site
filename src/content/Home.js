@@ -46,7 +46,7 @@ class Home extends Component {
                 </div>
 
                 {page_content.map((section, index) => 
-                    {return <Section section={section} index={index} />})}
+                    {return <Section section={section} index={index} key={index} />})}
                 </div>
             </div>
         )

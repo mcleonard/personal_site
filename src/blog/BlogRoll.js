@@ -9,7 +9,7 @@ class Blog extends Component {
         return (
             <div>
                 {metadata['posts'].map((metadata, index) =>
-                    {return <BlogSection metadata={metadata} index={index} />})}
+                    {return <BlogSection metadata={metadata} index={index} key={index}/>})}
             </div>
 
         )

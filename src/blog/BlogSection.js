@@ -48,7 +48,9 @@ class BlogSection extends Component {
 
                 <Button text="Read more" 
                         link={"blog/" + metadata["slug"]}
-                        new_tab={false}/>
+                        new_tab={false}
+                        route
+                        />
                 
             </div>
         )

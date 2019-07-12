@@ -16,7 +16,7 @@ class Section extends Component {
                 </div>
                 <div>
                     {(section["content"].length > 1 
-                        ? section["content"].map((content) => { return <SectionContent content={content} />})
+                        ? section["content"].map((content, index) => { return <SectionContent content={content} key={index}/>})
                         : <SectionContent content={section["content"][0]} single={true}/>)}
                 </div>
             </div>

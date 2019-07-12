@@ -13,7 +13,7 @@
         "image-file":"sampyl-example.png",
         "markdown":"#### Sampyl \n\n Sampyl is a Python library I built that provides MCMC samplers for Bayesian data analysis. I wanted a more flexible and understandable way to define Bayesian models with Python.",
         "button-text":"Learn more",
-        "button-link":"http://matatat.org/sampyl/"
+        "button-link":"http://mcleonard.github.io/sampyl/"
         },
         {
         "image-file":"openmined.png",
