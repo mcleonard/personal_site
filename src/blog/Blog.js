@@ -13,8 +13,8 @@ class Blog extends Component {
     
         return (
             <div className="Blog">
-                <Route exact path={process.env.PUBLIC_URL + `${match.path}/:slug`} component={BlogPost} />
-                <Route exact path={process.env.PUBLIC_URL + match.path} component={BlogRoll} />
+                <Route exact path={`${match.path}/:slug`} component={BlogPost} />
+                <Route exact path={match.path} component={BlogRoll} />
             </div>
         )
     }

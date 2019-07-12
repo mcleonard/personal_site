@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 // import logo from './logo.svg';
 import './App.css';
 import Home from './content/Home';
@@ -12,14 +12,14 @@ import Header from './components/Header'
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className='App'>
         <Header />
 
-        <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
-        <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
-        <Route path={process.env.PUBLIC_URL + "/blog"} component={Blog} />
-        <Route path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/blog" component={Blog} />
+        <Route path="/projects" component={Projects} />
       </div>
     </Router>
   );
