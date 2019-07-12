@@ -20,7 +20,9 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />
         <Route path="/projects" component={Projects} />
-        {/* <Route path="/sampyl" component={Sampyl} /> */}
+        <Route path="/sampyl" component={() => { 
+               window.location.href = 'http://mcleonard.github.io/sampyl/'; 
+               return null;}}/>
         
       </div>
     </Router>
