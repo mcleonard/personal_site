@@ -1,0 +1,10 @@
+{
+    "title":"Rendering Markdown and LaTeX in React",
+    "slug":"markdown-latex-react",
+    "notebook":"Rendering Markdown and LaTeX.ipynb",
+    "author":"Mat Leonard",
+    "publish_date":"2019-07-03",
+    "update_date":"",
+    "language":"javascript",
+    "summary":"Recently I’ve been spending my nights and weekends learning React by building myself a new website. I got to the point of migrating my blog from Python (using Pelican) to React. My blog posts are all written as Jupyter notebooks, then converted to HTML files and displayed. Notebooks are just big JSON files so it should be easy to load them into a React app and render them. However, I was having issues getting math expressions to render due to conflicts between Markdown and LaTeX syntax. Here is my solution to rendering math expressions written with LaTeX in Markdown."
+}
