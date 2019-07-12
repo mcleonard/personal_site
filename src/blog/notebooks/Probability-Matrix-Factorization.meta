@@ -1,0 +1,9 @@
+{
+    "title":"Implementing Probabilistic Matrix Factorization in PyTorch",
+    "slug":"pmf-pytorch",
+    "notebook":"Probability-Matrix-Factorization.ipynb",
+    "author":"Mat Leonard",
+    "publish_date":"2019-04-08",
+    "update_date":"",
+    "summary":"I found myself wanting to learn more about models for recommendation systems. After a bit of digging, I found what appears to be one of the better options for collaborative filtering called Probabilistic Matrix Factorization (PMF). What really excited me about this particular model is that it is a pretty straightforward Bayesian model. Also, implementing it with PyTorch would be quite fun. I'll outline the idea of PMF in this post and show how we can implement it with PyTorch."
+}

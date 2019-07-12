@@ -1,0 +1,21 @@
+.BlogSection {
+    display: block;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.BlogSection h1 {
+    margin-bottom: 0px;
+}
+
+.BlogSection a {
+    color: rgb(57, 66, 88);
+    text-decoration: none;
+}
+
+.BlogSection-date {
+    margin: 0;
+    font-size: 11pt;
+    font-weight: 400; 
+    color: rgb(116, 116, 116);
+}

@@ -1,14 +1,16 @@
 .App {
   text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: rgb(57, 66, 88);
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,7 +19,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -30,4 +32,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: #DF4034;
+}
+
+.zero-left-pad {
+  padding-left: 0 !important;
+}
+
+.zero-bottom-margin {
+  margin-bottom: 0 !important;
 }

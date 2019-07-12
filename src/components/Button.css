@@ -1,0 +1,23 @@
+.Button {
+    margin-top: 5px;
+    border-color: rgb(112, 123, 150);
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    font-size: 11pt;
+    color: rgb(57, 66, 88);
+    border-radius: 7px;
+    padding: 5px 15px;
+    display: inline-block;
+    text-decoration: none;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.Button:hover {
+    background-color: #DF4034;
+    border-color: #DF4034;
+    color: white;
+}
+

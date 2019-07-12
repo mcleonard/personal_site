@@ -1,0 +1,10 @@
+{
+    "title":"A Simple Bayesian Model with PyTorch",
+    "slug":"pytorch-mcmc",
+    "notebook":"PyTorch-MCMC.ipynb",
+    "author":"Mat Leonard",
+    "publish_date":"2019-02-07",
+    "update_date":"",
+    "language":"python",
+    "summary":"Way back in the year 2015, I discovered Bayesian statistics and immediately fell in love. At the time I found a lot of use for Bayesian models in my research. However, the Python libraries built for Bayesian data analysis were difficult to use for my purposes. So, as any good postdoc will do, I spent a couple months building my own library, Sampyl. Fast forward a bit and I'm teaching deep learning at Udacity. Initially we used TensorFlow as it was by far the most used and useable deep learning framework available. However, PyTorch released in mid-2017 and it was a revelation. Again, I immediately fell in love. Building neural networks wasn't just easy, it was fun. Turns out, the exact features that make PyTorch great also make it an excellent choice as a backend for a Bayesian data analysis librarie. Here is my initial work building a library for Bayesian data analysis using PyTorch."
+}

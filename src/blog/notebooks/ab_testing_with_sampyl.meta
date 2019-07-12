@@ -1,0 +1,9 @@
+{
+    "title":"A/B Testing with Sampyl",
+    "slug":"ab-testing-sampyl",
+    "notebook":"ab_testing_with_sampyl.ipynb",
+    "author":"Mat Leonard",
+    "publish_date":"2016-01-31",
+    "update_date":"",
+    "summary":"I've been working on building a Bayesian model to infer the firing rate of neurons over time. Python has a few packages available which use Markov Chain Monte Carlo (MCMC) methods to sample from the posterior distribution of a Bayesian model. The one I'm most familiar with is PyMC, the newest version (PyMC3) implements the No-U-Turn Sampler (NUTS) developed by Matthew Hoffman and Andrew Gelman. NUTS is based on Hamiltonian MCMC which uses the gradient of the posterior log probability to avoid the random walk nature of Metropolis-Hastings samplers, but requires very little tuning by the user. In the new version, the authors of PyMC chose to use Theano to calculate the log-p gradients. This is where I ran into problems."
+}

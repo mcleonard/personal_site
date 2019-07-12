@@ -1,0 +1,17 @@
+.Blog {
+    margin-top: 100px;
+    text-align: left;
+    padding: 10px 50px;
+    overflow: hidden;
+}
+
+.Blog h1 {
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 1100px) {
+    .Blog {
+        padding: 10px 200px;
+    }
+}

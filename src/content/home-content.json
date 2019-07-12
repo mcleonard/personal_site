@@ -1,0 +1,32 @@
+[
+    {
+    "title":"Listen",
+    "subtitle":"Recent favorites",
+    "content":[
+        {
+        "image-file":"reward.png",
+        "markdown":"Reward \n\n **Cate Le Bon**",
+        "button-text":"Click to listen",
+        "button-link":"https://youtu.be/n2Xsu1q3cAw"
+        },
+        {
+        "image-file":"chris-cohen.png",
+        "markdown":"Chris Cohen \n\n **Chris Cohen**",
+        "button-text":"Click to listen",
+        "button-link":"https://youtu.be/sMnDFU0Bru4"
+        },
+        {
+        "image-file":"lux-prima.png",
+        "markdown": "Lux Prima \n\n **Karen O & Danger Mouse**",
+        "button-text":"Click to listen",
+        "button-link":"https://youtu.be/Ulk2yiCsdh8"
+        },
+        {
+        "image-file":"ventura.png",
+        "markdown":"Ventura \n\n **Anderson Paak**",
+        "button-text":"Click to listen",
+        "button-link":"https://youtu.be/7Jj83FOlBF8"
+        }
+        ]
+    }
+]

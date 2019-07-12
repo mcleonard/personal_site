@@ -1,0 +1,38 @@
+[
+    {
+    "title":"Contact",
+    "subtitle":"Introduce yourself!",
+    "content":[
+        {
+        "image-file":"",
+        "markdown":"**Email:** leonard \\[dot\\] mat \\[at\\] gmail \\[dot\\] com \n\n **Twitter:** [MatDrinksTea](https://www.twitter.com/MatDrinksTea) \n\n **LinkedIn:** [My Profile](https://www.linkedin.com/in/matcleonard/) \n\n **GitHub**: [Various projects](https://github.com/mcleonard)",
+        "button-text":"",
+        "button-link":""
+        }
+    ]
+    },
+    {
+    "title":"About me",
+    "subtitle":"Get to know me",
+    "content":[
+        {
+        "image-file":"",
+        "markdown":"I am currently an instructional designer at [Kaggle](https://www.kaggle.com), creating content on various machine learning and data science topics. \n\n Before Kaggle I was at Udacity, also teaching machine learning. I built the first version of the [Deep Learning Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree--nd101) in early 2017 using TensorFlow 1.0 (and a few more versions). This program covered a broad range of deep learning models and architectures, including convolutional networks, recurrent networks, and generative adversarial networks. \n\n Later I became the product lead for Udacity's [School of AI](https://www.udacity.com/school-of-ai). I led a team to build and launch a catalog of educational programs covering deep learning, computer vision, natural language processing, and deep reinforcement learning. During this time, I fell in love with PyTorch and transitioned the bulk of the content to use the framework. \n\n Before Udacity, I received my PhD in Physics from UC - Berkeley where I studied the neural correlates of short-term memory in rat prefrontal cortex. As part of this work, I learned Python and the data analysis/science stack including numpy, pandas, scikit-learn, etc., and developed a machine learning system to automatically cluster electrical signals recorded from neurons. \n\n In my spare time I read novels and comics, play games of all sorts, listen to music non-stop, bike around the city, learn new recipes, and work on various coding projects. My goal in life is to never stop learning, always be improving in some way. I'm a feminist. I believe kindness and empathy are the answer to most problems.",
+        "button-text":"",
+        "button-link":""
+        }
+    ]
+    },
+    {
+    "title":"This site",
+    "subtitle":"How I built it",
+    "content":[
+        {
+        "image-file":"",
+        "markdown":"I built this website as a project for learning React. I've been wanting to expand my skills as a software engineer and decided it was time to gain some front-end experience. Overall, my experience with React has been excellent. I think the concept of breaking everything down into components is brilliant. I'm excited to keep learning and building new things with React. \n\n So, building the website. First, I used [Sketch](https://www.sketch.com/) to design the site. This involved layout, styles, choosing colors etc. I wanted the site to be a professional portfolio but also share my interests. I created a layout with sections for projects, music I like, and whatever other things I'd like to share. I set it up such that the content for each section is contained in a JSON object. To add a new section, I just add a new section in the JSON file. \n\n The site itself is a React app using the standard [create-react-app](https://github.com/facebook/create-react-app). I got started with React from [Colt Steele's React course](https://www.udemy.com/modern-react-bootcamp/). Colt was a colleague at Udacity a while ago and I always enjoyed his content. The course is similarly excellent. I did roughly the first half of the course to familiarize myself with JaveScript and React, then went off on my own. \n\n For the blog, all of the posts are written as a Jupyter notebook. Notebook files are actually large JSON objects, so it's possible to load notebook content directly into a JavaScript file. I wrote a React component specifically for rendering notebooks. One of the trickier problems was getting math expressions written in LaTeX to render along with Markdown. You can read about [my solution here](https://link.medium.com/aMMiQezA1X). \n\n Finally, I hosted the website on GitHub.",
+        "button-text":"",
+        "button-link":""
+        }
+    ]
+    }
+]

@@ -1,0 +1,28 @@
+.SectionContent {
+    text-align: left;
+    max-width: 800px;
+    padding-left: 50px;
+    height: auto;
+    margin-bottom: 65px;
+    overflow: hidden;
+}
+
+.SectionContent-image {
+    width: 176px;
+    float: left;
+}
+
+.SectionContent-text {
+    padding-left: 200px;
+    font-size: 11pt;
+    min-width: 350px;
+
+}
+
+.SectionContent-text p {
+    margin: 5px 0;
+}
+
+.SectionContent-text h4 {
+    margin: 0;
+}

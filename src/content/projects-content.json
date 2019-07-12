@@ -1,0 +1,26 @@
+[   
+    {
+    "title":"Projects",
+    "subtitle":"My free time life",
+    "content":[
+        {
+        "image-file":"janelle-passmore.png",
+        "markdown":"#### Janelle Monáe + Neural Style Transfer \n Around the time Janelle Monáe released Dirty Computer I implemented neural style transfer with PyTorch. Using pre-trained deep neural networks, I combined images of her with images from artists to create something new. Here I used an illustration by Ben Passmore.",
+        "button-text":"Learn more",
+        "button-link":"https://twitter.com/MatDrinksTea/status/991396386422771712?s=20"
+        },
+        {
+        "image-file":"sampyl-example.png",
+        "markdown":"#### Sampyl \n\n Sampyl is a Python library I built that provides MCMC samplers for Bayesian data analysis. I wanted a more flexible and understandable way to define Bayesian models with Python.",
+        "button-text":"Learn more",
+        "button-link":"http://matatat.org/sampyl/"
+        },
+        {
+        "image-file":"openmined.png",
+        "markdown":"#### PySyft \n I’ve been contributing to the PySyft project from the OpenMined open source community. PySyft aims to provide capabilities for building secure and private AI. My most recent work is an implementation of automatic differentiation for encrypted training.",
+        "button-text":"Learn more",
+        "button-link":"https://github.com/OpenMined/PySyft"
+        }
+        ]
+    }
+]
