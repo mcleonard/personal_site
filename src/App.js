@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { HashRouter, BrowserRouter, Route} from "react-router-dom";
 // import logo from './logo.svg';
 import './App.css';
 import Home from './content/Home';
@@ -12,7 +12,8 @@ import Header from './components/Header'
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <div>
+    <HashRouter>
       <div className='App'>
         <Header />
 
@@ -20,8 +21,18 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />
         <Route path="/projects" component={Projects} />
+        
       </div>
-    </Router>
+    </HashRouter>
+    <BrowserRouter basename="process.env.PUBLIC_URL">
+      <div>
+      <Route path='/sampyl' exact component={() => { 
+                window.location.href = 'http://mcleonard.github.io/sampyl/'; 
+                return null;
+                  }}/>
+      </div>
+      </BrowserRouter>
+    </div>
   );
 }
 
