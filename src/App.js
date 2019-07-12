@@ -11,6 +11,11 @@ import Header from './components/Header'
 
 
 function App() {
+
+  if (window.location.href.includes("sampyl")) {
+    window.location.replace("http://mcleonard.github.io/sampyl/");
+  }
+
   return (
     <div>
     <HashRouter>
@@ -21,17 +26,19 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />
         <Route path="/projects" component={Projects} />
+        {/* // <Route path='/sampyl' component={() => {
+        //         window.location.replace('http://mcleonard.github.io/sampyl/'); 
+        //         return null;
+        //           }}/> */}
         
       </div>
     </HashRouter>
-    <BrowserRouter basename="process.env.PUBLIC_URL">
-      <div>
-      <Route path='/sampyl' component={() => { 
-                window.location.href = 'http://mcleonard.github.io/sampyl/'; 
+    {/* <BrowserRouter basename="process.env.PUBLIC_URL">
+      <Route path='/sampyl' component={() => {
+                window.location.replace('http://mcleonard.github.io/sampyl/'); 
                 return null;
                   }}/>
-      </div>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
