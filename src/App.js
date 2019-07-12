@@ -16,10 +16,10 @@ function App() {
       <div className='App'>
         <Header />
 
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/projects" component={Projects} />
+        <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
+        <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+        <Route path={process.env.PUBLIC_URL + "/blog"} component={Blog} />
+        <Route path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
       </div>
     </Router>
   );
