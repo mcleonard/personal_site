@@ -7,7 +7,6 @@ import About from './content/About';
 import Projects from './content/Projects'
 import Blog from './blog/Blog';
 import Header from './components/Header'
-import Sampyl from './components/Sampyl'
 
 function App() {
 
